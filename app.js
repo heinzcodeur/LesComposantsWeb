@@ -1,9 +1,9 @@
-import SecondTimer from "./components/SecondTimer.js"
-import Datepicker from "./components/Datepicker.js"
-import MyButton from "./components/MyButton.js";
+import SecondTimer from "./components/SecondTimer"
+import Datepicker from "./components/Datepicker"
+import MyButton from "./components/MyButton";
 
 customElements.define('second-timer', SecondTimer);
-customElements.define('date-picker', Datepicker, {extends:'input'})
+//customElements.define('date-picker', Datepicker, {extends:'input'})
 customElements.define('my-button', MyButton)
 
 document.querySelector('#add').addEventListener('click', function(){
