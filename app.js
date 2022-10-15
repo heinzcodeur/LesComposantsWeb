@@ -1,6 +1,6 @@
-import SecondTimer from "./components/SecondTimer"
+import SecondTimer from "./components/SecondTimer.js"
 import Datepicker from "./components/Datepicker"
-import MyButton from "./components/MyButton";
+import MyButton from "./components/MyButton.js";
 
 customElements.define('second-timer', SecondTimer);
 //customElements.define('date-picker', Datepicker, {extends:'input'})
