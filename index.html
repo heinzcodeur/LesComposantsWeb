@@ -11,6 +11,7 @@
 
     <title>Les composants web</title>
     <script src="app.js" type="module" defer></script>
+
 </head>
 <body>
 
@@ -25,15 +26,20 @@
             <br>
             <div class="form-group">
                 <label for="start">date debut</label>
-                <input type="text" id="start" class="form-control js-datepicker">
+                <input type="text" id="start" class="form-control" is="date-picker">
             </div>
             <br>
             <button id="add" class="btn btn-secondary">ajouter</button>
+            <br>
+            <my-button></my-button>
         </div>
     </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script>
+    //flatpickr('#start',{})
+</script>
 
 </body>
 </html>
